@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        @keyframes loadIn {
+            0% {
+              transform: translateY(-80px);
+            } 
+            40%
+            {
+                transform:translateX(-60px);
+            }
+            100% {
+              transform: translateY(0px);
+            }
+          }
+        body {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url("https://wallpapercave.com/wp/THsknvO.jpg") center/cover no-repeat;
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .welcome {
+            font-family: Oswald, sans-serif;
+            font-size: 3.5cm;
+            color: #66fcf1;
+            margin: 5% auto 0;
+            animation: loadIn 1.3s ease ;
+        }
+        .welcome:hover
+        {
+            font-weight: bolder;
+            text-shadow: 0px 7px 0px #3bcac0;
+        }
+
+        .btn {
+            margin: 0 auto;
+            width: 170px;
+            height: 100px;
+            padding: 10px 20px;
+            border: 3px solid #66fcf1;
+            border-radius: 7px;
+            background: none;
+            font-size: 16px;
+            
+            color: #66fcf1;
+            text-decoration: none;
+            text-transform: uppercase;
+            vertical-align: middle;
+            text-align: center;
+            transition: background .4s, color .4s;
+        }
+
+        .btn:hover {
+            background: #66fcf1;
+            color: #10151B;
+        }
+        .desc
+        {
+            color:#66fcf1;
+            width:50%;
+            margin-left: 25%;
+        }
+        .desc:hover{
+            font-weight: bolder;
+            text-shadow: 0px 0px 2px #3bcac0;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1 class="welcome">WELCOME</h1>
+        <p class="desc">Welcome to our weather-checking website, your go-to destination for accurate and up-to-date weather information. Whether you're planning your day, a trip, or simply curious about the weather in different locations, our website provides comprehensive data to keep you informed.</p>
+        <br>
+        <br>
+        <a href="newone.html" class="btn">Enter→</a>
+    </div>
+</body>
+</html>
