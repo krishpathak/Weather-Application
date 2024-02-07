@@ -1,5 +1,5 @@
 
-# Weather Appliaction
+# Weather Application
 
 This weather application allows users to get real-time weather information for any city. Users can input the name of the city, and the application retrieves weather data from an external API and displays it to the user.
 
@@ -43,10 +43,10 @@ Open index.html in your browser or deploy the project on web server.
 5. To view your website,simply click [here](https://krishpathak.github.io/Weather-Application/)
 
 ## Usage
-- Open the Weather Appliaction in your browser.
+- Open the Weather Application in your browser.
 - Click "Enter" to enter into main page.
 - Enter the location of city that you want to find the temprature.
-- Click the "Get Weatther" button to see Temprature,Humidity,Description,Pressure,Wind Speed and Wind-direction.
+- Click the "Get Weather" button to see Temprature,Humidity,Description,Pressure,Wind Speed and Wind-direction.
 - Click the "Description" button in navigation bar to see brief description of website and How to use it.
 
 ## Resource
